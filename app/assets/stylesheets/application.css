@@ -1,0 +1,54 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .form-row{
+margin-top: 50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+ }
+ input[type="text"] {
+  flex:1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #56a8df;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.coach {
+  border-left: 2px solid#ccc;
+  background-color: antiquewhite;
+  padding:10px;
+  margin: 50px;
+}
+.you {
+  border-left: 2px solid #ccc;
+  margin: 50px;
+  padding: 10px;
+}
+.title {
+  text-align: center;
+}
+.link {
+  margin: 50px;
+}
